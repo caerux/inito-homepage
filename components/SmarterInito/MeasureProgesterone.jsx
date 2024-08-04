@@ -18,7 +18,8 @@ const MeasureProgesterone = () => {
         * Source: National Institutes of Health
       </p>
       <p className="text-xl text-[#112D35] font-bold mt-8">
-        “Inito is all that you need to give you the best chance of conception."
+        &ldquo;Inito is all that you need to give you the best chance of
+        conception.&rdquo;
       </p>
       <div className="flex mt-5 ">
         <img src="/assets/SmarterInito/doctor.svg" />

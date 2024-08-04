@@ -58,8 +58,8 @@ const Predict = () => {
               data
             </p>
             <p className="font-medium text-[#112D35] mb-8">
-              Unlike most ovulation tests that only give you "yes/no" results,
-              Inito provides{" "}
+              Unlike most ovulation tests that only give you &quot;yes/no&quot;
+              results, Inito provides{" "}
               <span className="font-bold">real numerical values</span> of your
               fertility hormones.
             </p>

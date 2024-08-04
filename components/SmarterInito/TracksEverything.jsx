@@ -50,7 +50,7 @@ const TracksEverything = () => {
             </p>
             <p>
               <span className="text-[#1F94AA] font-extrabold">•</span> When
-              you’ve successfully ovulated{" "}
+              you&rsquo;ve successfully ovulated
             </p>
             <p>
               <span className="text-[#1F94AA] font-extrabold">•</span> And when

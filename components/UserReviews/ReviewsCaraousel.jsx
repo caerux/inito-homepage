@@ -49,7 +49,7 @@ const ReviewsCarousel = ({ reviews }) => {
                 <img src="/assets/Group 890.png" className="w-" />
               </div>
               <blockquote className="font-medium text-sm text-[#3F555D] ">
-                "{review.text}"
+                &quot;{review.text}&quot;
               </blockquote>
               <p className="md:hidden mt-10  text-left font-bold text-[#0096AD]">
                 {review.author}
