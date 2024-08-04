@@ -23,8 +23,8 @@ Ensure you have Node.js and npm installed on your machine. You can download them
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/caerux/inito-homepage.git
+   cd inito-homepage
    ```
 
 2. **Install dependencies**
