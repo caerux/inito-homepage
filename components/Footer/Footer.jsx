@@ -1,15 +1,8 @@
-// const Footer = () => {
-//   return (
-//     <footer className="bg-[#112D35] ">
-//       <div className="max-w-[1024px] mx-auto container"></div>
-//     </footer>
-//   );
-// };
-
-// export default Footer;
 "use client";
 
 import React, { useState } from "react";
+import Image from "next/image";
+const socials = ["Facebook", "Instagram", "LinkedIn", "Youtube"];
 
 const footerData = {
   company: ["About Us", "Careers", "Blog", "Contact Us"],
@@ -69,10 +62,17 @@ const Footer = () => {
             <FooterColumn title="Get In Touch" items={footerData.getInTouch} />
             <div className="hidden md:flex flex-col items-center md:items-start">
               <div className="flex space-x-8">
-                <img src="/assets/Footer/Facebook.svg" />
-                <img src="/assets/Footer/Instagram.svg" />
-                <img src="/assets/Footer/LinkedIn.svg" />
-                <img src="/assets/Footer/Youtube.svg" />
+                {socials.map((social, index) => {
+                  return (
+                    <Image
+                      key={index}
+                      src={`/assets/Footer/${social}.svg`}
+                      alt={`${social} Icon`}
+                      width={32}
+                      height={32}
+                    />
+                  );
+                })}
               </div>
             </div>
           </div>

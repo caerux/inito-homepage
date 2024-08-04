@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Promotion = () => {
   return (
     <section className="container max-w-[1024px] mx-auto">
@@ -5,7 +7,13 @@ const Promotion = () => {
         <div className="text-3xl px-5 lg:px-0 lg:text-4xl lg:w-3/5 font-bold text-[#112D35]">
           The{" "}
           <span className="relative inline-block">
-            only <img src="/assets/vector1.svg" className="absolute" />
+            only{" "}
+            <Image
+              src="/assets/vector1.svg"
+              alt=""
+              layout="fill"
+              className="absolute translate-y-5"
+            />
           </span>{" "}
           fertility kit you will ever need
         </div>

@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Button from "./header/Button";
 import React, { useState, useEffect } from "react";
 
@@ -53,7 +54,13 @@ const Predict = () => {
               Predict and confirm your ovulation with{" "}
               <span className="italic relative inline-block">
                 actual{" "}
-                <img src="/assets/vector2.svg" className="absolute w-28" />
+                <Image
+                  src="/assets/vector2.svg"
+                  alt="Description of the image"
+                  width={112}
+                  height={112}
+                  className="absolute"
+                />
               </span>{" "}
               data
             </p>
