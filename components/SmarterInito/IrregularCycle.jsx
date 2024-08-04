@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const IrregularCycle = () => {
   return (
     <div className="lg:max-w-[900px] md:max-w-[750px] flex mx-auto md:flex md:bg-white rounded-3xl overflow-hidden">
@@ -20,9 +22,13 @@ const IrregularCycle = () => {
           </p>
         </div>
         <div className="mt-10 md:mt-0 md:flex-1">
-          <img
+          <Image
             src="/assets/SmarterInito/lady.svg"
-            className="w-[100%] object-cover aspect-square"
+            alt="Lady"
+            layout="responsive"
+            width={500}
+            height={500}
+            className="w-full object-cover aspect-square"
           />
         </div>
       </div>

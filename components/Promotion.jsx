@@ -30,30 +30,49 @@ const Promotion = () => {
         <div className="px-5 mb-16 font-medium mt-6 lg:w-3/5 text-[#112D35]">
           Inito is the only fertility monitor that measures all{" "}
           <span className="font-bold">4 hormones</span> on a{" "}
-          <span className="font-bold">single test strip,</span>
+          <span className="font-bold">single test strip, </span>
           showing you a full picture of your cycles with results unique to your
           body.
         </div>
         <div className="md:hidden">
           <div className="mb-10 flex flex-col items-center">
-            <img src="/assets/3star.svg" />
+            <Image
+              src="/assets/3star.svg"
+              alt="Three Star Rating"
+              layout="intrinsic"
+              width={40}
+              height={40}
+            />
             <p className="text-xs font-semibold mt-4 text-[#112D35]">
               TRUSTED BY
             </p>
-            <p className="text-xs font-semibold mt-4 text-[#112D35]">
+            <p className="text-xs font-semibold text-[#112D35]">
               20,000+ COUPLES
             </p>
           </div>
 
           <div className="mb-10 flex flex-col items-center">
-            <img src="/assets/check.svg" />
+            <Image
+              src="/assets/check.svg"
+              alt="Three Star Rating"
+              layout="intrinsic"
+              width={40}
+              height={40}
+            />
+
             <p className="text-xs font-semibold mt-4 text-[#112D35]">
               FREE US SHIPPING
             </p>
           </div>
 
           <div className=" flex flex-col items-center">
-            <img src="/assets/hsaEligible.svg" />
+            <Image
+              src="/assets/hsaEligible.svg"
+              alt="Three Star Rating"
+              layout="intrinsic"
+              width={40}
+              height={40}
+            />
             <p className="text-xs font-semibold mt-4 text-[#112D35]">
               HSA/FSA ELIGIBLE
             </p>

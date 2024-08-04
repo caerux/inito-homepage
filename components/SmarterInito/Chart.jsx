@@ -1,4 +1,5 @@
 import Button from "../header/Button";
+import Image from "next/image";
 
 const Chart = () => {
   return (
@@ -9,17 +10,25 @@ const Chart = () => {
             Get charts and actual{" "}
             <span className="relative inline-block">
               values{" "}
-              <img
+              <Image
                 src="/assets/SmarterInito/Vector5.svg"
+                alt="Underline"
+                width={100}
+                height={100}
+                objectFit="contain"
                 className="absolute bottom-0"
               />
             </span>{" "}
             of your{" "}
             <span className="relative inline-block">
               hormones
-              <img
+              <Image
                 src="/assets/SmarterInito/star.svg"
-                className="absolute -right-9 -top-2"
+                alt="Star"
+                width={50}
+                height={50}
+                objectFit=""
+                className="absolute right-0 translate-x-11 -translate-y-11"
               />
             </span>
           </p>
@@ -39,14 +48,24 @@ const Chart = () => {
             />
           </div>
         </div>
-        <div className="mt-10 md:mt-0 items-center">
-          <img
+        <div className="md:hidden">
+          <Image
             src="/assets/SmarterInito/chart2.svg"
-            className="w-[100%] md:hidden"
+            alt="Chart 2"
+            layout="responsive"
+            width={100}
+            height={100}
+            className="w-full"
           />
-          <img
+        </div>
+        <div className="hidden md:block">
+          <Image
             src="/assets/SmarterInito/chart1.svg"
-            className="w-[100%] hidden md:block"
+            alt="Chart 1"
+            layout="responsive"
+            width={100}
+            height={100}
+            className="w-full"
           />
         </div>
       </div>

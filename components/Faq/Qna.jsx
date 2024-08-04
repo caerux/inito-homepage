@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Image from "next/image";
 
 const faqs = [
   {
@@ -60,9 +61,19 @@ const FAQItem = ({ faq, isOpen, onClick }) => (
       <div className="flex items-center justify-center">
         <div className="h-8 w-8 items-center flex justify-center">
           {isOpen ? (
-            <img src="/assets/Faq/Minus.svg" />
+            <Image
+              src="/assets/Faq/Minus.svg"
+              alt="Minus Icon"
+              width={20}
+              height={20}
+            />
           ) : (
-            <img src="/assets/Faq/Plus.svg" />
+            <Image
+              src="/assets/Faq/Plus.svg"
+              alt="Plus Icon"
+              width={20}
+              height={20}
+            />
           )}
         </div>
       </div>

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const MeasureProgesterone = () => {
   return (
     <div className="p-10 relative md:-mt-40 -mt-24 rounded-3xl shadow-custom-card bg-white lg:max-w-[800px] md:max-w-[650px] mx-auto">
@@ -21,15 +23,25 @@ const MeasureProgesterone = () => {
         &ldquo;Inito is all that you need to give you the best chance of
         conception.&rdquo;
       </p>
-      <div className="flex mt-5 ">
-        <img src="/assets/SmarterInito/doctor.svg" />
+      <div className="flex mt-5">
+        <Image
+          src="/assets/SmarterInito/doctor.svg"
+          alt="Doctor"
+          width={50}
+          height={50}
+        />
         <div className="px-5">
           <p className="text-[#112D35] font-bold">Dr. Rachel Wagner</p>
           <p className="text-[#94A0A4] italic">MD</p>
         </div>
-      </div>
-      <div className="hidden md:block absolute right-0 top-0 translate-x-[35%] -translate-y-[35%]">
-        <img src="/assets/SmarterInito/notepad.svg" />
+        <div className="hidden md:block absolute right-0 top-0 translate-x-[35%] -translate-y-[35%]">
+          <Image
+            src="/assets/SmarterInito/notepad.svg"
+            alt="Notepad"
+            width={100}
+            height={100}
+          />
+        </div>
       </div>
     </div>
   );

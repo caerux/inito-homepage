@@ -1,5 +1,6 @@
 import Button from "./Button";
 import MobileNav from "./MobileNav";
+import Image from "next/image";
 import Nav from "./Nav";
 const Header = () => {
   return (
@@ -10,9 +11,13 @@ const Header = () => {
             <MobileNav />
           </div>
           <div className="w-full flex gap-8 justify-between items-center">
-            {/* logo */}
             <div className="flex text-4xl font-semibold h-[30px] w-[78.75px] md:h-[40px] md:w-[105px]">
-              <img src="assets/Logo Inito.svg" alt="inito" />
+              <Image
+                src="/assets/Logo Inito.svg"
+                alt="Inito Logo"
+                width={150}
+                height={50}
+              />
             </div>
             <div className="flex items-center gap-8">
               <div className="hidden md:flex">

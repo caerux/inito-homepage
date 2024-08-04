@@ -1,4 +1,5 @@
 import Qna from "./Qna";
+import Image from "next/image";
 
 const Faq = () => {
   return (
@@ -9,9 +10,13 @@ const Faq = () => {
           <span className="relative inline-block">
             {" "}
             questions,{" "}
-            <img
+            <Image
               src="/assets/Faq/ellipse.svg"
-              className="absolute -top-2 w-72 scale-110 right-1"
+              alt="Ellipse Shape"
+              layout="intrinsic"
+              width={288}
+              height={288}
+              className="absolute -top-2 scale-110 right-1"
             />
           </span>{" "}
           answered

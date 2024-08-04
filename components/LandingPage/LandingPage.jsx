@@ -1,13 +1,17 @@
 import Button from "../header/Button";
-import PressSection from "./PressSection";
+import Image from "next/image";
 
 const LandingPage = () => {
   return (
     <section className="relative w-full h-[700px] md:h-[775px] z-[-1]">
       <div className="absolute inset-0 z-[-1] bg-[#C4F2FF] ">
-        <img
+        <Image
           src="/assets/Header-bg-01 2.svg"
-          className="object-cover w-full h-full object-[0_85%] hidden md:block"
+          alt="Header Background"
+          layout="fill"
+          objectFit="cover"
+          objectPosition="0% 85%"
+          className="w-full h-full"
         />
       </div>
 
@@ -15,7 +19,12 @@ const LandingPage = () => {
         <div className="md:flex-1 pt-5 md:pt-32 md:w-full max-w-[90%]">
           <div className="flex items-center mb-6 mt-20">
             <div>
-              <img src="/assets/Group 890.png" />
+              <Image
+                src="/assets/Group 890.png"
+                alt="5 star"
+                width={80}
+                height={80}
+              />
             </div>
             <div className="text-xs flex md:text-sm ml-4 font-semibold">
               TRUSTED BY 20,000+ COUPLES

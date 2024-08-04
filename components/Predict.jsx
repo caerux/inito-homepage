@@ -105,12 +105,20 @@ const Predict = () => {
               Never miss{" "}
               <span className="relative inline-block">
                 a day{" "}
-                <img
-                  src="assets/Predict/anEgg.svg"
+                <Image
+                  src="/assets/Predict/anEgg.svg"
+                  alt="An Egg"
+                  layout="intrinsic"
+                  width={150}
+                  height={150}
                   className="absolute -top-8 left-4 scale-150"
                 />
-                <img
-                  src="assets/Predict/Vector3.svg"
+                <Image
+                  src="/assets/Predict/Vector3.svg"
+                  alt="Vector Image"
+                  layout="intrinsic"
+                  width={100}
+                  height={100}
                   className="absolute top-3"
                 />
               </span>{" "}
@@ -124,7 +132,13 @@ const Predict = () => {
               {checkList.map((item, index) => {
                 return (
                   <div key={index} className="flex px-4 my-2 md:px-0 md:my-0">
-                    <img src={item.image} />
+                    <Image
+                      src={item.image}
+                      alt="check"
+                      layout="intrinsic"
+                      width={15}
+                      height={15}
+                    />
                     <p className="font-medium text-sm ml-4">
                       {item.description}
                     </p>
@@ -134,7 +148,13 @@ const Predict = () => {
             </div>
           </div>
           <div className="justify-center flex m-10">
-            <img src="/assets/Predict/chart.svg" className="w-[1024px]" />
+            <Image
+              src="/assets/Predict/chart.svg"
+              alt="Chart"
+              layout="intrinsic"
+              width={1024}
+              height={576}
+            />
           </div>
         </div>
       </div>

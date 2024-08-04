@@ -2,6 +2,7 @@ import Chart from "./Chart";
 import IrregularCycle from "./IrregularCycle";
 import MeasureProgesterone from "./MeasureProgesterone";
 import TracksEverything from "./TracksEverything";
+import Image from "next/image";
 
 const SmarterInito = () => {
   return (
@@ -13,7 +14,14 @@ const SmarterInito = () => {
         Why Inito is the smarter way to get{" "}
         <span className="relative inline-block">
           pregnant{" "}
-          <img src="/assets/SmarterInito/Vector4.svg" className="absolute" />
+          <Image
+            src="/assets/SmarterInito/Vector4.svg"
+            alt="Vector Graphic"
+            width={200}
+            height={100}
+            objectFit="contain"
+            className="absolute"
+          />
         </span>
       </div>
       <IrregularCycle />

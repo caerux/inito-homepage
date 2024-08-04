@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Image from "next/image";
 
 const MobileNav = () => {
   const navItems = ["About Us", "Blog", "FAQ", "Contact Us"];
@@ -17,9 +18,19 @@ const MobileNav = () => {
         className="w-[25px] h-[23px] flex cursor-pointer"
       >
         {isOpen ? (
-          <img src="assets/close-x.svg" alt="open mobile nav" />
+          <Image
+            src="/assets/close-x.svg"
+            alt="close mobile nav"
+            width={24}
+            height={24}
+          />
         ) : (
-          <img src="assets/Icon.svg" alt="open mobile nav" />
+          <Image
+            src="/assets/Icon.svg"
+            alt="open mobile nav"
+            width={24}
+            height={24}
+          />
         )}
       </div>
 

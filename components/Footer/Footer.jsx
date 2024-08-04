@@ -26,9 +26,20 @@ const FooterColumn = ({ title, items }) => {
         <h4 className="text-lg text-white font-semibold md:mb-2">{title}</h4>
         <span className="text-xl md:hidden">
           {isOpen ? (
-            <img src="/assets/Footer/IconDown.svg" className="rotate-180" />
+            <Image
+              src="/assets/Footer/IconDown.svg"
+              alt="Icon Down"
+              width={24}
+              height={24}
+              className="rotate-180"
+            />
           ) : (
-            <img src="/assets/Footer/IconDown.svg" />
+            <Image
+              src="/assets/Footer/IconDown.svg"
+              alt="Icon Down"
+              width={24}
+              height={24}
+            />
           )}
         </span>
       </div>
@@ -50,10 +61,30 @@ const Footer = () => {
         <div className="max-w-[1024px] container md:py-14 mx-auto rounded-lg p-10 xl:py-10 xl:px-0">
           <div className="flex flex-col items-center md:items-start mb-10 md:hidden">
             <div className="flex space-x-8">
-              <img src="/assets/Footer/Facebook.svg" />
-              <img src="/assets/Footer/Instagram.svg" />
-              <img src="/assets/Footer/LinkedIn.svg" />
-              <img src="/assets/Footer/Youtube.svg" />
+              <Image
+                src="/assets/Footer/Facebook.svg"
+                alt="Facebook Icon"
+                width={24}
+                height={24}
+              />
+              <Image
+                src="/assets/Footer/Instagram.svg"
+                alt="Instagram Icon"
+                width={24}
+                height={24}
+              />
+              <Image
+                src="/assets/Footer/LinkedIn.svg"
+                alt="LinkedIn Icon"
+                width={24}
+                height={24}
+              />
+              <Image
+                src="/assets/Footer/Youtube.svg"
+                alt="Youtube Icon"
+                width={24}
+                height={24}
+              />
             </div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-4 lg:gap-10 justify-center">
@@ -80,13 +111,28 @@ const Footer = () => {
         <div className="bg-[#000000] w-full opacity-[20%]">
           <div className="max-w-[1024px] mx-auto md:py-2 md:flex justify-between items-center p-10 md:p-0">
             <div className="flex justify-center items-center">
-              <img src="/assets/Footer/InitoFooter.svg" />
+              <Image
+                src="/assets/Footer/InitoFooter.svg"
+                alt="Inito Footer"
+                width={80}
+                height={50}
+              />
             </div>
             <div className="hidden md:block">
-              <img src="/assets/Footer/Copyright.svg" />
+              <Image
+                src="/assets/Footer/Copyright.svg"
+                alt="Copyright"
+                width={150}
+                height={50}
+              />
             </div>
             <div className="flex justify-center items-center mt-8 md:hidden">
-              <img src="/assets/Footer/Copyright2.svg" />
+              <Image
+                src="/assets/Footer/Copyright2.svg"
+                alt="Copyright 2"
+                width={150}
+                height={50}
+              />
             </div>
           </div>
         </div>

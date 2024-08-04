@@ -1,4 +1,5 @@
 import Button from "./header/Button";
+import Image from "next/image";
 
 const steps = [
   {
@@ -32,12 +33,16 @@ const InitoSteps = () => {
     <section className="container flex mx-auto lg:max-w-[1024px] p-10 md:p-0 md:my-20">
       <div className="md:flex gap-4 items-center">
         <div className="p-4 justify-center items-center text-center md:text-left">
-          <p className="text-3xl md:text-2xl lg:text-4xl font-bold text-[#112D35] mx-auto w-[70%] md:mx-0">
+          <p className="text-3xl md:text-2xl lg:text-4xl font-bold text-[#112D35] mx-auto md:w-[70%] md:mx-0">
             A{" "}
             <span className="relative inline-block">
               fertility lab{" "}
-              <img
+              <Image
                 src="/assets/InitoSteps/Vector6.svg"
+                alt="Vector Image"
+                width={100}
+                height={100}
+                objectFit="contain"
                 className="absolute w-[150%] -bottom-1"
               />
             </span>{" "}
@@ -58,7 +63,12 @@ const InitoSteps = () => {
             Android phones are not supported at the moment.
           </p>
           <div className="hidden md:flex mt-5 justify-end">
-            <img src="assets/InitoSteps/appStore.svg" />
+            <Image
+              src="/assets/InitoSteps/appStore.svg"
+              alt="App Store"
+              width={150}
+              height={50}
+            />
           </div>
         </div>
         <div className="justify-center item-center mt-10 md:mt-0">
@@ -70,7 +80,14 @@ const InitoSteps = () => {
                   className="mt-10 md:mt-0 flex flex-col justify-center items-center"
                 >
                   <div className="relative md:max-w-[242px] md:max-h-[160px]">
-                    <img src={step.gif} className="mx-auto rounded-3xl" />
+                    <Image
+                      src={step.gif}
+                      alt="Step GIF"
+                      layout="intrinsic"
+                      className="rounded-3xl"
+                      width={500}
+                      height={300}
+                    />
                     <div
                       className={`absolute text-white font-bold md:hidden text-3xl top-0 -translate-x-[30%] -translate-y-[30%] flex rounded-full h-20 w-20 justify-center items-center`}
                       style={{ backgroundColor: step.numColor }}

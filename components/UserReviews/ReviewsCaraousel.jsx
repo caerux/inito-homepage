@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { useSwipeable } from "react-swipeable";
+import Image from "next/image";
 
 const ReviewsCarousel = ({ reviews }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -25,9 +26,9 @@ const ReviewsCarousel = ({ reviews }) => {
   useEffect(() => {
     const interval = setInterval(() => {
       nextReview();
-    }, 4000); // Change review every 4 seconds
+    }, 4000);
 
-    return () => clearInterval(interval); // Clean up on component unmount
+    return () => clearInterval(interval);
   }, []);
 
   const handlers = useSwipeable({
@@ -46,7 +47,12 @@ const ReviewsCarousel = ({ reviews }) => {
           <div className="min-w-full md:p-0 p-4" key={index}>
             <div className="bg-[#F7F7FE] rounded-3xl pt-8 pb-6 px-8 md:pb-12">
               <div className=" pb-6 ">
-                <img src="/assets/Group 890.png" className="w-" />
+                <Image
+                  src="/assets/Group 890.png"
+                  alt="Group 890"
+                  width={80}
+                  height={80}
+                />
               </div>
               <blockquote className="font-medium text-sm text-[#3F555D] ">
                 &quot;{review.text}&quot;
