@@ -63,7 +63,7 @@ To learn more about the tools and frameworks used:
 
 - [Next.js Documentation](https://nextjs.org/docs) - Learn about Next.js features and API.
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs) - Learn about Tailwind CSS and its utility-first approach.
-- [React Documentation](https://reactjs.org/docs/getting-started.html) - Learn about React components and hooks.
+- [React Documentation](https://react.dev/learn) - Learn about React components and hooks.
 - [react-swipeable Documentation](https://github.com/FormidableLabs/react-swipeable) - Learn how to handle swipe gestures in React.
    
 
