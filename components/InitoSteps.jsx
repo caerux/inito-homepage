@@ -32,7 +32,7 @@ const InitoSteps = () => {
   return (
     <section className="container flex mx-auto lg:max-w-[1024px] p-10 md:p-0 md:my-20">
       <div className="md:flex gap-4 items-center">
-        <div className="p-4 justify-center items-center text-center md:text-left">
+        <div className="p-4 lg:p-0 justify-center items-center text-center md:text-left">
           <p className="text-3xl md:text-2xl lg:text-4xl font-bold text-[#112D35] mx-auto md:w-[70%] md:mx-0">
             A{" "}
             <span className="relative inline-block">
