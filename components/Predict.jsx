@@ -56,7 +56,7 @@ const Predict = () => {
                 actual{" "}
                 <Image
                   src="/assets/vector2.svg"
-                  alt="Description of the image"
+                  alt=""
                   width={112}
                   height={112}
                   className="absolute"
