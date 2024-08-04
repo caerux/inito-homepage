@@ -17,9 +17,7 @@ const SmarterInito = () => {
         </span>
       </div>
       <IrregularCycle />
-
       <TracksEverything />
-
       <Chart />
     </section>
   );

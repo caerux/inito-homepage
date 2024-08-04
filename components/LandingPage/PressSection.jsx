@@ -1,6 +1,6 @@
 const PressSection = () => {
   return (
-    <div className="md:-mt-10 mt-10 container max-w-[1024px] mx-auto w-full flex flex-col justify-center text-center mb-10">
+    <div className="md:-mt-10 mt-10 container max-w-[1024px] mx-auto w-full flex flex-col justify-center text-center px-6 mb-10">
       <div className="font-extrabold text-[#c4c4c4] ">AS SEEN ON</div>
       <div>
         <div className="items-center justify-between mt-4 grid grid-cols-2 gap-10 md:grid-cols-5">

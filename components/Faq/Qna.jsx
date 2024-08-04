@@ -89,7 +89,7 @@ const Qna = () => {
   return (
     <div className="flex flex-col items-center justify-center">
       <div className="w-full">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 px-6 lg:px-0 md:grid-cols-2 gap-4">
           <div className="flex flex-col space-y-4">
             {faqs.slice(0, 5).map((faq, index) => (
               <FAQItem

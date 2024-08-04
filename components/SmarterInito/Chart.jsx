@@ -2,10 +2,10 @@ import Button from "../header/Button";
 
 const Chart = () => {
   return (
-    <div className="max-w-[900px] mx-auto md:flex md:bg-white rounded-3xl overflow-hidden md:my-20">
+    <div className="lg:max-w-[900px] md:max-w-[750px] mx-auto md:flex md:bg-white rounded-3xl overflow-hidden md:my-20">
       <div className="grid grid-cols-1 md:grid-cols-2 items-center">
-        <div className="p-14 md:p-12 md:bg-white">
-          <p className="text-3xl font-bold text-[#112D35]">
+        <div className="p-14 md:px-10 md:py-6 md:bg-white">
+          <p className="text-3xl md:text-2xl lg:text-3xl font-bold text-[#112D35]">
             Get charts and actual{" "}
             <span className="relative inline-block">
               values{" "}
@@ -23,11 +23,11 @@ const Chart = () => {
               />
             </span>
           </p>
-          <p className="text-[#112D35] font-medium mt-5 md:text-sm">
+          <p className="text-[#112D35] font-medium mt-5 md:text-sm lg:text-base">
             Actual numerical values are necessary to know whether your PdG
             levels are sufficient enough to support a healthy pregnancy.
           </p>
-          <p className="text-[#112D35] font-medium mt-5 md:text-sm">
+          <p className="text-[#112D35] font-medium mt-5 md:text-sm lg:text-base">
             Studies show that PdG levels lower than 7.9ng/ml in serum (around
             10ug/ml PdG) 6-8 days after ovulation are associated with lower
             pregnancy outcomes.

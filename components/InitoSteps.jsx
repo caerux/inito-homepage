@@ -29,10 +29,10 @@ const steps = [
 
 const InitoSteps = () => {
   return (
-    <section className="container flex mx-auto max-w-[1024px] p-10 md:p-0 md:my-20">
-      <div className="grid grid-cols-1 md:grid-cols-2 items-center">
-        <div className="justify-center items-center text-center md:text-left">
-          <p className="text-3xl md:text-4xl font-bold text-[#112D35] mx-auto w-[60%] md:mx-0">
+    <section className="container flex mx-auto lg:max-w-[1024px] p-10 md:p-0 md:my-20">
+      <div className="md:flex gap-4 items-center">
+        <div className="p-4 justify-center items-center text-center md:text-left">
+          <p className="text-3xl md:text-2xl lg:text-4xl font-bold text-[#112D35] mx-auto w-[70%] md:mx-0">
             A{" "}
             <span className="relative inline-block">
               fertility lab{" "}
@@ -43,7 +43,7 @@ const InitoSteps = () => {
             </span>{" "}
             at your fingertips
           </p>
-          <p className="text-[#112D35] font-medium mt-5 md:mt-8 mx-auto md:mx-0">
+          <p className="text-[#112D35] md:text-sm lg:text-base font-medium mt-5 md:mt-8 mx-auto md:mx-0">
             Easy-to-read fertility diagnostic results directly on your iPhone¹,
             in just 10 minutes.
           </p>
@@ -53,16 +53,16 @@ const InitoSteps = () => {
               style="rounded-full px-8 py-4 text-white font-semibold text-sm"
             />
           </div>
-          <p className="hidden md:block text-xs text-[#A0ABAE] pr-10 mt-5">
+          <p className="hidden md:block text-xs text-[#A0ABAE] lg:text pr-10 mt-5">
             * The Inito Fertility Monitor currently supports iPhone 7 and up.
             Android phones are not supported at the moment.
           </p>
-          <div className="hidden md:flex mt-5 justify-end mr-10">
+          <div className="hidden md:flex mt-5 justify-end">
             <img src="assets/InitoSteps/appStore.svg" />
           </div>
         </div>
         <div className="justify-center item-center mt-10 md:mt-0">
-          <div className="grid grid-cols-1 md:grid-cols-2 md:gap-6 justify-center items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 md:gap-2 lg:gap-6 justify-center items-center">
             {steps.map((step, index) => {
               return (
                 <div
@@ -79,12 +79,12 @@ const InitoSteps = () => {
                     </div>
                   </div>
                   <div className="md:flex md:mt-2">
-                    <div className="hidden md:flex rounded-full bg-[#EEEEF5] mx-3 items-center justify-center">
-                      <div className="w-[60px] h-[60px] flex justify-center items-center font-bold text-2xl">
+                    <div className="hidden md:flex md:mx-1 lg:mx-3 items-center justify-center">
+                      <div className="lg:w-[60px] md:w-[40px] md:h-[40px] lg:h-[60px] bg-[#EEEEF5] rounded-full flex justify-center items-center font-bold  md:text-base lg:text-2xl">
                         {step.number}
                       </div>
                     </div>
-                    <div className="flex font-medium mt-4 mx-14 md:mx-0 md:mt-0 text-xl md:text-sm text-center md:text-left items-center">
+                    <div className="flex font-medium mt-4 mx-14 md:mx-0 md:mt-0 text-xl md:text-xs lg:text-sm text-center md:text-left items-center">
                       {step.decription}
                     </div>
                   </div>

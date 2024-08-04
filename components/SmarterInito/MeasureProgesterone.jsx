@@ -1,6 +1,6 @@
 const MeasureProgesterone = () => {
   return (
-    <div className="p-10 relative md:p-10 md:-mt-40 -mt-24 rounded-3xl shadow-custom-card bg-white max-w-[800px] mx-auto">
+    <div className="p-10 relative md:-mt-40 -mt-24 rounded-3xl shadow-custom-card bg-white lg:max-w-[800px] md:max-w-[650px] mx-auto">
       <div className="text-[#1F94AA] font-bold ">WHY MEASURE PROGESTERONE?</div>
       <p className="mt-2  text-[#112D35] font-medium">
         <span className="font-bold ">Anovulation</span> (having a menstrual

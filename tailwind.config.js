@@ -6,6 +6,11 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      md: "768px",
+      custom: "884px",
+      lg: "1024px",
+    },
     extend: {
       boxShadow: {
         "custom-card":

@@ -3,7 +3,7 @@ import PressSection from "./PressSection";
 
 const LandingPage = () => {
   return (
-    <section className="bg-green-500 relative w-full h-[570px] md:h-[775px] z-[-1]">
+    <section className="relative w-full h-[700px] md:h-[775px] z-[-1]">
       <div className="absolute inset-0 z-[-1] bg-[#C4F2FF] ">
         <img
           src="/assets/Header-bg-01 2.svg"
@@ -13,7 +13,7 @@ const LandingPage = () => {
 
       <div className="px-5 md:px-5 lg:px-0 max-w-[1024px] container mx-auto md:flex h-full z-10 overflow-hidden md:overflow-visible">
         <div className="md:flex-1 pt-5 md:pt-32 md:w-full max-w-[90%]">
-          <div className="flex items-center mb-6">
+          <div className="flex items-center mb-6 mt-20">
             <div>
               <img src="/assets/Group 890.png" />
             </div>
