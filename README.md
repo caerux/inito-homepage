@@ -24,22 +24,26 @@ Ensure you have Node.js and npm installed on your machine. You can download them
 
    ```bash
    git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name```
+   cd your-repo-name
+   ```
 
 2. **Install dependencies**
 
    ```bash
-   npm install```
+   npm install
+   ```
 
 3. **Run the development server:**
 
     ```bash
-    npm run dev```
+    npm run dev
+    ```
 
 4. **Open your browser:**
 
    ```bash
-   Visit http://localhost:3000 to view the project.```
+   Visit http://localhost:3000 to view the project.
+   ```
 
 ## Features
 
