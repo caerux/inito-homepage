@@ -9,10 +9,11 @@ const Promotion = () => {
           <span className="relative inline-block">
             only{" "}
             <Image
-              src="/assets/vector1.svg"
+              src="/assets/vector1.png"
               alt=""
-              layout="fill"
-              className="absolute translate-y-5"
+              width={100}
+              height={1}
+              className="absolute"
             />
           </span>{" "}
           fertility kit you will ever need
