@@ -2,7 +2,7 @@
 This is a clone of [Inito](https://www.inito.com/) website's homepage.
 
 This project is built using `Next.js`, `Tailwind CSS`, and `React`. It also integrates the `react-swipeable` library to handle swipe gestures within the application.
-You can access the live webpage [here](https://66af57179e097e7d9ced7c18--inito-homepage.netlify.app/).
+You can access the live webpage [here](https://inito-homepage.netlify.app/).
 
 ## Tech Stack
 
